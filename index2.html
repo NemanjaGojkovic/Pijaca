@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pijaca "Gvozden" - Povrce</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="sytle.css">
+  </head>
+  <body class="body2">
+    <div class="container">
+        <div class="row my-4">
+            <div class="col-md-4 col-sm-4 text-start">
+              <a href="index1.html"><button class="dugme">Voce</button></a>
+             
+            </div>
+            <div class="col-md-4 col-sm-4 text-center"><h2 id="naslov">Pijaca "Gvozden"</h2></div>
+            <div class="col-md-4 col-sm-4 text-end">
+              <a href="index2.html"><button class="dugme">Povrce</button></a>
+            </div>
+          </div>
+      <div class="row">
+        <hr style="border: none; border-top: 2px solid red;"/>
+      </div>
+      <div class="row my-3">
+        <div class="col-md-3 text-center">
+          <img src="slike/luk.png" alt="" width="150" height="150" />
+        </div>
+        <div class="col-md-2 text-left align-self-center">
+          <p id="imeLuk">Crni luk</p>
+          <p class="cena" id="cenaLuk"><b><i>23 din/kg</i></b></p>
+        </div>
+        <div class="col-md-1 text-left align-self-center">
+          <input class="input1" type="number" size="5" value="0" min="0">
+        </div>
+        <div class="col-md-3 text-center">
+          <img src="slike/kupus.png" alt="" width="150" height="150" />
+        </div>
+        <div class="col-md-2 text-left align-self-center">
+          <p id="imeKupus">Kupus "Bocvana"</p>
+          <p class="cena" id="cenaKupus"><b><i>42 din/kg</i></b></p>
+        </div>
+        <div class="col-md-1 text-left align-self-center">
+          <input class="input2" type="number" size="5" value="0" min="0">
+        </div>
+      </div>
+      <div class="row my-3">
+        <div class="col-md-3 text-center">
+          <img src="slike/paradajz.png" alt="" width="150" height="150" />
+        </div>
+        <div class="col-md-2 text-left align-self-center">
+          <p id="imeParadajz">Paradajz "Rucica"</p>
+          <p class="cena" id="cenaParadajz"><b><i>111 din/kg</i></b></p>
+        </div>
+        <div class="col-md-1 text-left align-self-center">
+          <input class="input3" type="number" size="5" value="0" min="0">
+        </div>
+        <div class="col-md-3 text-center">
+          <img src="slike/paprika.png" alt="" width="150" height="150" />
+        </div>
+        <div class="col-md-2 text-left align-self-center">
+          <p id="imePaprika">Paprika Babura</p>
+          <p class="cena" id="cenaPaprika"><b><i>250 din/kg</i></b></p>
+        </div>
+        <div class="col-md-1 text-left align-self-center">
+          <input class="input4" type="number" size="5" value="0" min="0">
+        </div>
+      </div>
+      <div class="row my-3">
+        <div class="col-md-3 text-center">
+          <img src="slike/krompir.png" alt="" width="150" height="150" />
+        </div>
+        <div class="col-md-2 text-left align-self-center">
+          <p id="imeKrompir">Beli krompir</p>
+          <p class="cena" id="cenaKrompir"><b><i>75 din/kg</i></b></p>
+        </div>
+        <div class="col-md-1 text-left align-self-center">
+          <input class="input5" type="number" size="5" value="0" min="0">
+        </div>
+        <div class="col-md-3 text-center">
+          <img src="slike/krastavac.png" alt="" width="150" height="150" />
+        </div>
+        <div class="col-md-2 text-left align-self-center">
+          <p id="imeKrastavac">Krastavac "Svilajnac"</p>
+          <p class="cena" id="cenaKrastavac"><b><i>255 din/kg</i></b></p>
+        </div>
+        <div class="col-md-1 text-left align-self-center">
+          <input class="input6" type="number" size="5" value="0" min="0">
+        </div>
+      </div>
+      <div class="row my-3">
+        <hr style="border: none; border-top: 2px solid red;"/>
+        <div class="col-md-3 text-start align-self-center" id="dugmeZaKasu">
+        </div>
+        <div class="col-md-4 text-end align-self-center">
+          <button onmouseover="ukljuciKorpu()" onmouseleave="iskljuciKorpu()" id="korpa" onclick="dodajUKorpuPovrce()">Dodaj u korpu</button>
+        </div>
+        <div class="col-md-3 text-start align-baseline" id="korp">
+          <img id="korpica" src="slike/korpa.png" width="90px" height="90px"/>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

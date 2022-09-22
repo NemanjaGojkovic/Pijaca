@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pijaca "Gvozden" - Kasa</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="sytle.css" />
+  </head>
+  <body style="background-color: rgb(252, 141, 141);
+  background-image: url(slike/cart.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: top;
+  background-attachment: fixed;">
+    <div class="container" id="racun">
+      <div class="row my-4" id="prviRed">
+        <div class="col-md-4 col-sm-4 text-start">
+          <a href="index1.html"><button class="dugme">Voce</button></a>
+        </div>
+        <div class="col-md-4 col-sm-4 text-center">
+          <h2 id="naslov">KASA</h2>
+        </div>
+        <div class="col-md-4 col-sm-4 text-end">
+          <a href="index2.html"><button class="dugme">Povrce</button></a>
+        </div>
+      </div>
+      <div class="row">
+        <hr style="border: none; border-top: 2px solid red" />
+      </div>
+      <div class="row" id="dugmeRed">
+        <div class="col-md-4"></div>
+        <div class="col-md-4 align-self-center text-center">
+          <button id="prikazi" onclick="prikaziKorpu()">Prikazi korpu</button>
+        </div>
+        <div class="col-md-4"></div>
+      </div>
+    </div>
+    <div id="total"
+      style="
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        margin-bottom: 30px;
+        margin-right: 100px;
+        font-size: 25px;
+        color: rgb(147, 43, 5);
+        font-family: cursive;">
+      
+    </div>
+    <script src="js/bootstrap.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

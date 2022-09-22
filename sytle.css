@@ -1,0 +1,127 @@
+
+.dugme {
+    background-color: rgb(252, 174, 146);
+    border-radius: 10px;
+    height: 50px;
+    width: 70px;
+    border-color: rgb(227, 60, 0);
+    color: rgb(147, 43, 5)
+}
+
+.dugme:hover{
+    background-color:rgb(241, 107, 58);
+    border-color: rgb(134, 39, 4);
+    color: rgb(137, 40, 5);
+}
+
+.body1{
+    background-color: rgb(249, 197, 190);
+    background-image: url("slike/pozadina22.jpg");
+}
+
+.body2{
+    background-color: rgb(249, 197, 190);
+    background-image: url("slike/pozadina33.jpg");
+}
+
+#naslov {
+    color: rgb(147, 43, 5)
+}
+
+#lajna{
+    padding: 5px;
+}
+
+p{
+    color: rgb(147, 43, 5);
+    font-family: cursive;
+    font-size: 24px;
+}
+
+.cena{
+    font-size: 28px;
+}
+
+input{
+
+    border-radius: 10px;
+    border-color: rgb(147, 43, 5);
+    background-color: rgb(252, 222, 212);
+    width: 80px;
+}
+
+#korpa{
+    border-radius: 20px;
+    height: 50px;
+    width: 160px;
+    background-color: rgb(252, 141, 141);
+    color: rgb(227, 39, 39);
+    border-color: rgb(227, 39, 39);
+}
+
+#uKorpu{
+    border-radius: 20px;
+    height: 50px;
+    width: 160px;
+    background-color: rgb(252, 141, 141);
+    color: rgb(227, 39, 39);
+    border-color: rgb(227, 39, 39);
+}
+
+#uKorpu:hover{
+    height: 60px;
+    width: 182px;
+}
+
+#korpa:hover{
+    height: 60px;
+    width: 182px;
+    
+}
+
+#korp {
+    opacity: 0%;
+}
+
+#prikazi{
+    border-radius: 20px;
+    height: 50px;
+    width: 160px;
+    background-color: rgb(254, 214, 214);
+    color: rgb(208, 5, 5);
+    border-color: rgb(194, 31, 31);
+}
+
+#prikazi:hover{
+    height: 60px;
+    width: 182px;
+    
+}
+
+
+#redoviHrana, #gramazaCene, #redoviCene{
+    font-size: 25px;
+    padding: 40px;
+    color: rgb(147, 3, 3);
+    font-family: cursive;
+}
+
+.proizvod{
+    padding: 40px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(123, 3, 3); 
+}
+
+#kanta:hover{
+    transform: scale(1.2);
+}
+
+#nemaArtikla{
+    font-size: 25px;
+    padding: 40px;
+    color: rgb(147, 3, 3);
+    font-family: cursive;
+}
+
+
